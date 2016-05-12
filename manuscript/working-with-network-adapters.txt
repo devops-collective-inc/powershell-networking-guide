@@ -30,6 +30,6 @@ Along the way, I will be showing some pretty cool Windows PowerShell tricks.
 Question: How can you use Windows PowerShell to show which enabled protocols are bound to your network adapters using Windows 8.1 and PowerShell 4.0?
 
 Answer: Use the Get-Netadapter cmdlet to retrieve all of the network adapters on your system. Then pipeline it to the Get-NetAdapterBinding cmdlet and filter on enabled is equal to true. This command appears here:
-````
+```
 Get-NetAdapter|Get-NetAdapterBinding|-enabled-eq$true
-````
+```
