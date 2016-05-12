@@ -1,7 +1,4 @@
 About.md
-chapter1.md
-chapter2.md
-chapter3.md
 windows-powershell-basics-introduction.md
 windows-powershell-basics-security-issues-with-windows-powershell.md
 windows-powershell-basics-using-powershell-cmdlets.md
